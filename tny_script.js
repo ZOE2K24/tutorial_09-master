@@ -1,3 +1,5 @@
+"use strict";
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
@@ -8,4 +10,6 @@
    Date:   October 8, 2024
 */
 
-window.alert("Welcome to Tulsa");
+/* Display the current date and time */
+
+document.getElementById("dateNow").innerHTML = "m/d/y<br />h:m:s";
