@@ -14,6 +14,10 @@
 
 document.getElementById("dateNow").innerHTML = "m/d/y<br />h:m:s";
 
+/* Execute the function to run and display the countdown clock */
+runClock();
+setInterval("runClock()", 1000);
+
 /* Function to create and run the countdown clock */
 function runClock() {
 
@@ -46,6 +50,4 @@ document.getElementById("hrs").textContent = Math.floor(hrsLeft);
 document.getElementById("mins").textContent = Math.floor(minsLeft);
 document.getElementById("secs").textContent = Math.floor(secsLeft);
 
-
-
-
+}
